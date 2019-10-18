@@ -1,0 +1,77 @@
+* {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+    background: linear-gradient(-45deg, #7F00FF, #E100FF);
+    background-size: 400% 400%;
+    animation: gradientBG 3s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 20px;
+    height: 75vh;
+    margin-bottom: 50px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    font-weight: 900;
+}
+
+.header {
+    font-size: 80px;
+    margin-top: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-right: -100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.data {
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: 900;
+    margin-right: 200px;
+}
+
+.image {
+    margin-top: 20px;
+    width: 70%;
+    margin-left: 40px;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 100%;
+    margin-left: -500px;
+}
+
+.loginstyle {
+    font-size: 200px;
+}
+
+.password {
+    margin-top: 10px;
+}
+
+.success {
+    margin-top: 140px;
+}
